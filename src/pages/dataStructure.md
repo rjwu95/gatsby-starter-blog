@@ -1,3 +1,8 @@
+---
+title: "Data structure"
+date: "2018-12-29"
+---
+
 # Data Structure
 
 ## 1. Linked list 

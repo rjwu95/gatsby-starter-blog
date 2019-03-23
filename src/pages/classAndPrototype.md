@@ -1,5 +1,5 @@
 ---
-title: "Class and Prototype"
+title: "Class and prototype"
 date: "2019-01-03"
 ---
 

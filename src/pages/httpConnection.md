@@ -14,7 +14,7 @@ chatterbox는 하나의 서버에 여러개의 클라이언트가 있는 앱
 1. 메시지를 저장 - 클라이언트의 요청에 의해 서버에 저장
 2. 저장된 메세지를 뿌려줌 - 요청에 대한 응답 표시
 
-클라이언트 
+클라이언트
 
 1. 터미널의 역할을 수행
 2. 사용자 입력을 주로 수행
@@ -28,9 +28,7 @@ chatterbox는 하나의 서버에 여러개의 클라이언트가 있는 앱
 
 push technollogy까지도 찾아보기
 
-
-
-http request methods 
+http request methods
 
 GET은 정보를 가져오는 것을 요청하는 method
 
@@ -55,4 +53,3 @@ http 요청 테스트는 postman 이라는 tool로 확인을 할 수가 있다.
 fetch 사용하는 방법은 mdn 참고하기
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-

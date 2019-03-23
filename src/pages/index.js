@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 const IndexPage = ({ data }) => (
   <Layout>
     <div>
-      <h1>gun's</h1>
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>

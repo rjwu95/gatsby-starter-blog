@@ -8,9 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-// import { StaticQuery, graphql } from "gatsby"
 
-// import Header from "./header"
 import "./layout.css"
 const ListLink = props => (
   <li style={{ display: "inline-block", marginRight: "1rem" }}>

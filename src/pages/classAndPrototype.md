@@ -5,13 +5,9 @@ date: "2019-01-03"
 
 ## Prototype
 
-다른 언어에서의 class를 구현하기 위해서 존재하는 개념인데, 예를 들어 People이라는 다른 언어에서 말하는 class가
+다른 언어에서의 class를 구현하기 위해서 존재하는 개념인데, 예를 들어 People이라는 다른 언어에서 말하는 class가 존재한다면 이를 통해 person1, person2를 만든다고 가정해보자.
 
-존재한다면 이를 통해 person1, person2를 만든다고 가정해보자.
-
-그렇다면 person1,2에 브라우저에서 제공하는 ** proto** 라는 property 존재하게 된다.(사실상 JavaScript의 모든
-
-object에 ** proto**가 존재한다.)
+그렇다면 person1,2에 브라우저에서 제공하는 \_\_proto\_\_ 라는 property 존재하게 된다.(사실상 JavaScript의 모든 object에 ** proto**가 존재한다.)
 
 이때의 ** proto**는 People을 가리키는 것이 아니라 People의 prototype이라는 property를 가리킨다.
 

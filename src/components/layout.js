@@ -11,7 +11,6 @@ import { css } from "@emotion/core"
 import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
-
 import "./layout.css"
 const ListLink = props => (
   <li
@@ -44,18 +43,19 @@ const Layout = ({ children }) => (
           background-image: none;
         `}
       >
-        <h3
+        <h1
           css={css`
             display: inline;
           `}
         >
           oceas blog
-        </h3>
+        </h1>
       </Link>
       <ul
         css={css`
           list-style: none;
           float: right;
+          margin-top: ${rhythm(0.5)};
         `}
       >
         <ListLink to="/">Develop</ListLink>

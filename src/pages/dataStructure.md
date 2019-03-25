@@ -1,5 +1,5 @@
 ---
-title: "Data structure"
+title: "Data structure(자료 구조)"
 date: "2018-12-29"
 ---
 

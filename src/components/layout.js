@@ -58,12 +58,13 @@ const Layout = ({ children }) => (
           float: right;
         `}
       >
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/about">About</ListLink>
-        <ListLink to="/contact">Contact</ListLink>
+        <ListLink to="/">Develop</ListLink>
+        <ListLink to="/TIL">TIL</ListLink>
+        <ListLink to="/career">Career</ListLink>
       </ul>
     </header>
     {children}
+    <div>ⓒ 2019. oceas all rights reserved</div>
   </div>
 )
 

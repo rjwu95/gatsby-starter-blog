@@ -1,5 +1,5 @@
 ---
-title: "Gooling을 하는 14가지 방법"
+title: "Googling을 하는 14가지 방법"
 date: "2019-02-23"
 ---
 

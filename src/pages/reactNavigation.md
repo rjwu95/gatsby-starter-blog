@@ -10,6 +10,8 @@ react native를 통해 모바일 어플리케이션을 만들면서 react native
 먼저 react navigation에 있는 navigator라는 개념 먼저 얘기해보려 한다.
 navigator는 다음 그림과 같다.
 
+<img src="../components/IMG_4205.png" />
+
 navigator는 위의 그림처럼 여러개의 화면을 한 보따리에 묶어서 그 안에 있는 화면들끼리 자유롭게 이동할 수 있게 해 주는 도구이다.
 
 그렇다면 navigator는 어떤 종류가 있을까? 아래에 나오는 navigator들이 흔히 쓰이는 종류이다.

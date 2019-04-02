@@ -56,8 +56,6 @@ fetch(server, {
 }
 ```
 
-이번 sprint를 하면서 새로 알게된 지식: 어떤 노드에 자식노드를 넣어주는데 상위에서 업데이트 되게하려면 appendChild를 하지않고 prepend()를 하면된다!
-
 #### fetch는 ajax 방법중 하나인가?
 
 Ajax는 클라이언트에서 서버측에 '비동기'로 요청(get, post, put 등)하여 서버와 interact 하는 방식 또는 기술을 통칭하고 fetch란 Ajax 기술 (좀 더 정확히는 XMLHttpRequest)을 Promsie 객체 등을 사용하여 좀 더 편리하게 이용할 수 있게 하는 비동기 요청 API이다.

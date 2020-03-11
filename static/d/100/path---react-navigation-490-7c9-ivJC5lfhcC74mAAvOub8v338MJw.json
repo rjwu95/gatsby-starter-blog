@@ -1,1 +1,0 @@
-{"data":{"markdownRemark":{"html":"<p>react native를 통해 모바일 어플리케이션을 만들면서 react native app 화면전환에 react navigation이 가장 적합하다는 것을 깨달았고, navigation을 사용하면서 동작하는 원리에 대해 연구해봤다. React navigation을 통한 화면전환과 구성에 대해 이야기 해보자.</p>","frontmatter":{"title":"React navigation: 화면전환과 구성"}}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"/reactNavigation/"}}

@@ -48,7 +48,7 @@ const Layout = ({ children }) => (
             display: inline;
           `}
         >
-          oceas blog
+          gun blog
         </h1>
       </Link>
       <ul
@@ -64,7 +64,7 @@ const Layout = ({ children }) => (
       </ul>
     </header>
     {children}
-    <div>ⓒ 2019. oceas all rights reserved</div>
+    <div>ⓒ 2019. gun all rights reserved</div>
   </div>
 )
 

@@ -48,7 +48,7 @@ const Layout = ({ children }) => (
             display: inline;
           `}
         >
-          gun blog
+          Gun's blog
         </h1>
       </Link>
       <ul
@@ -59,7 +59,8 @@ const Layout = ({ children }) => (
         `}
       >
         <ListLink to="/">Develop</ListLink>
-        <ListLink to="/TIL">TIL</ListLink>
+        <ListLink to="/philosophy">philosophy</ListLink>
+        {/* <ListLink to="/TIL">TIL</ListLink> */}
         <ListLink to="/career">Career</ListLink>
       </ul>
     </header>

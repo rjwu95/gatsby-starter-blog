@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-const IndexPage = ({ data }) => (
+const PhilosophyPage = ({ data }) => (
   <Layout>
     <div>
-      <h4>{data.allMarkdownRemark.edges.filter(el => el.node.fields.slug.match(/\/develop/)).length} Posts</h4> {/* 효율적인 방법 찾기 */}
-      {data.allMarkdownRemark.edges.filter(el => el.node.fields.slug.match(/\/develop/)).map(({ node }) => (
+      <h4>{data.allMarkdownRemark.edges.filter(el => el.node.fields.slug.match(/\/philosophy/)).length} Posts</h4> {/* 효율적인 방법 찾기 */}
+      {data.allMarkdownRemark.edges.filter(el => el.node.fields.slug.match(/\/philosophy/)).map(({ node }) => (
         <div key={node.id}>
           <Link
             to={node.fields.slug}
@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => (
   </Layout>
 )
 
-export default IndexPage
+export default PhilosophyPage
 
 export const query = graphql`
   query {

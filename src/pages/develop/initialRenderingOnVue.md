@@ -1,11 +1,9 @@
 ---
 
 
-title: "Improve initial rendering speed"
+title: "Vue 초기 렌더링 속도 개선하기"
 date: "2020-05-25"
 ---
-
-### Vue 초기 렌더링 속도 개선하기
 
 최근 회사의 모바일 어플리케이션을 개발하고 있는 중에 초기 렌더링 속도의 개선에 대해 큰 필요성을 느꼈다.
 우리 회사는 Native에서 프론트에 Webview를 요청하면 webpack으로 빌드되어 있는 파일들을 보내 앱 내에서 띄우는 형식인데,

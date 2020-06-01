@@ -61,7 +61,7 @@ const Layout = ({ children }) => (
         <ListLink to="/">Develop</ListLink>
         <ListLink to="/philosophy">philosophy</ListLink>
         {/* <ListLink to="/TIL">TIL</ListLink> */}
-        <ListLink to="/career">Career</ListLink>
+        {/* <ListLink to="/career">Career</ListLink> */}
       </ul>
     </header>
     {children}

@@ -20,7 +20,7 @@ Serverless Framework는 AWS, Azure, Google Cloud Platfrom 등 다양한 클라�
 
 사용하는 방법에 대해서 간단히 알아보면 serverless cli를 통해 프로젝트를 초기 셋팅하고 serverless.yml을 다음과 같이 수정하고 실행시키고 싶은 함수를 js파일에 다음과 같이 만들어주면 코드에 대한 부분은 끝난다. 보는 것과 같이 코드의 구성이 매우 간단하다.![스크린샷 2020-06-21 오후 11.01.38](https://tva1.sinaimg.cn/large/007S8ZIlgy1gg09k5e1hqj30ou0i6wgc.jpg)![스크린샷 2020-06-21 오후 11.01.51](https://tva1.sinaimg.cn/large/007S8ZIlgy1gg09k76291j30x40rgtc0.jpg)
 
-이 때 주목해야 할 부분이 serverless.yml에 plugins이라는 부분인데, 앞서 말했듯이 serverless에 플러그인을 추가해서 기능을 확장시킬 수 있다. 'serverless-offline'라는 module을 설치하여 serverless cli의 `serverless offline` 을 사용하면 로컬에 서버를 띄워 만들어 놓은 함수를 테스트할 수 있다. 이게 내가 생각하는 serverless의 가장 큰 장점이다. 그 후 AWS IAM user를 이용하여 ~/.aws/credentials 파일에 access_key와 secret_key를 저장한 후 Lambda에 배포할 수 있다.
+이 때 주목해야 할 부분이 serverless.yml에 plugins이라는 부분인데, 앞서 말했듯이 serverless에 플러그인을 추가해서 기능을 확장시킬 수 있다. 'serverless-offline'라는 module을 설치하여 serverless cli의 `serverless offline` 커맨드를 사용하면 로컬에 서버를 띄워 만들어 놓은 함수를 테스트할 수 있다. 이게 내가 생각하는 serverless의 가장 큰 장점이다. 그 후 AWS IAM user를 이용하여 ~/.aws/credentials 파일에 access_key와 secret_key를 저장한 후 Lambda에 배포할 수 있다.
 
 ### 후기
 

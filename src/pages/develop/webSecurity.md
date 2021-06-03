@@ -1,6 +1,6 @@
 ---
 title: "웹 보안"
-date: "2021-06-02"
+date: "2021-06-03"
 
 ---
 
@@ -50,4 +50,8 @@ Content-Security-Policy: default-src 'self'; img-src *; script-src userscripts.e
 ```
 
 이처럼 리소스 출처에 제한을 두면서 공격에 대처하는 방법이다.
+
+
+
+### 
 

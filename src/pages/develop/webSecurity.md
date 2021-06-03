@@ -33,7 +33,7 @@ date: "2021-06-03"
 
 CSP는 XSS처럼 데이터를 삽입해 공격을 하는 막는 보안 계층이다.
 
-일반적으로  [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) 헤더를 사용하고, <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';"> 이와 같이 meta 태그로 설정할 때도 있다.
+일반적으로  [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) 헤더를 사용하고, `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">` 이와 같이 meta 태그로 설정할 때도 있다.
 
 가장 중요한 값은 default-src 인데, 이는 인라인 스크립트와 스타일이 실행되는 것을 방지한다. 아래 몇가지 예를 보면서 뜻을 알아보자.
 
@@ -125,7 +125,7 @@ window.addEventListener("message", receiveMessage, false);
 
 ### JSONP
 
-XHR 객체를 사용하지 않고 <script> 태그를 사용하는 방법
+XHR 객체를 사용하지 않고 `<script>` 태그를 사용하는 방법
 
 콜백함수를 반환해서 클라이언트에 있는 콜백함수를 실행하게 함
 
@@ -141,8 +141,6 @@ XHR 객체를 사용하지 않고 <script> 태그를 사용하는 방법
 ```
 
 ### xDomain
-
-#### 현재는 deer
 
 서버에는 proxy.html 만 생성하고 
 
@@ -166,8 +164,3 @@ XHR 객체를 사용하지 않고 <script> 태그를 사용하는 방법
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://www.server.com/secret/file.txt");
 ```
-
-
-
-### 
-
